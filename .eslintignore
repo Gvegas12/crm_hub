@@ -1,3 +1,4 @@
 lib
 config
-vite.config.ts 
+vite.config.ts
+storybook-static

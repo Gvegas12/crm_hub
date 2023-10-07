@@ -8,14 +8,13 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # test
-.github
-
 node_modules
 dist
 /build
 /prev-v.config.txt
 dist-ssr
 *.local
+storybook-static
 
 # Editor directories and files
 .idea
