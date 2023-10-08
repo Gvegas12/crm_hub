@@ -1,0 +1,32 @@
+[
+	{
+		"id": "java",
+		"label": "java",
+		"value": 62,
+		"color": "hsl(237, 70%, 50%)"
+	},
+	{
+		"id": "c",
+		"label": "c",
+		"value": 166,
+		"color": "hsl(145, 70%, 50%)"
+	},
+	{
+		"id": "erlang",
+		"label": "erlang",
+		"value": 524,
+		"color": "hsl(96, 70%, 50%)"
+	},
+	{
+		"id": "sass",
+		"label": "sass",
+		"value": 500,
+		"color": "hsl(162, 70%, 50%)"
+	},
+	{
+		"id": "python",
+		"label": "python",
+		"value": 402,
+		"color": "hsl(255, 70%, 50%)"
+	}
+]

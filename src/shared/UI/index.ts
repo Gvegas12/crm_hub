@@ -2,7 +2,8 @@ import {
 	UILinearChart as LinearChart,
 	UILinearChartData,
 } from "./UILinearChart";
+import { UIPieChart as PieChart, UIPieChartData } from "./UIPieChart";
 
-export default { LinearChart };
+export default { LinearChart, PieChart };
 
-export type { UILinearChartData };
+export type { UILinearChartData, UIPieChartData };

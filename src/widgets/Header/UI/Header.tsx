@@ -2,6 +2,9 @@ import { FC } from "react";
 
 import clsx from "clsx";
 
+import LogoIcon from "@/shared/assets/img/icons/js.svg";
+import { privateRoutePaths } from "@/shared/config/routes";
+
 import BurgerIcon from "./icons/burger.svg";
 
 import styles from "./Header.module.scss";
@@ -14,7 +17,9 @@ export const Header: FC<IHeaderProps> = ({ className }) => {
 	return (
 		<header className={clsx(styles.Header, className)}>
 			<div className={styles.wrapper}>
-				<div className={styles.logo}>CRMHUB</div>
+				<a href={privateRoutePaths.home}>
+					<LogoIcon className={styles.logo} />
+				</a>
 				<div className={styles.userWrapper}>
 					<div className={styles.user} />
 					<div className={styles.burger}>
