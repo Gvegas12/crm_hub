@@ -24,7 +24,7 @@ export const UILinearChart: FC<IUILinearChartProps> = ({
 	<div className={clsx(styles.UILinearChart, className)}>
 		<ResponsiveLine
 			data={data}
-			margin={{ top: 10, right: 10, bottom: 10, left: 10 }}
+			margin={{ top: 10 }}
 			xScale={{ type: "point" }}
 			yScale={{
 				type: "linear",

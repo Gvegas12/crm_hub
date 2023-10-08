@@ -13,6 +13,4 @@ const StorybookComponent: StoryFn<typeof SalesAnalytics> = (args) => (
 );
 
 export const Primary = StorybookComponent.bind({});
-Primary.args = {
-	children: "Text",
-};
+Primary.args = {};

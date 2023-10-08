@@ -1,0 +1,12 @@
+.SalesAnalyticsLinearCharts {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	column-gap: 30px;
+}
+
+.card {
+	width: calc(100% / 3);
+	height: 150px;
+}

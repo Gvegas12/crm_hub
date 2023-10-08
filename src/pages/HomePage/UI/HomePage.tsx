@@ -1,14 +1,7 @@
 import React from "react";
 
-import { LinearChart } from "@/features/LinearChart";
+import { SalesAnalytics } from "@/widgets/SalesAnalytics";
 
-const HomePage: React.FC = () => (
-	<div>
-		<LinearChart />
-		<LinearChart />
-		<LinearChart />
-		<LinearChart />
-	</div>
-);
+const HomePage: React.FC = () => <SalesAnalytics />;
 
 export default HomePage;

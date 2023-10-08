@@ -1,0 +1,30 @@
+$p: 15px;
+
+.LinearChartWithDescription {
+	padding-top: $p;
+	background: white;
+	border-radius: 8px;
+}
+
+.wrapper {
+	padding: 0 $p;
+}
+
+.text_wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.title {
+	font-weight: 600;
+}
+
+.value {
+	font-weight: 700;
+}
+
+.sub_value {
+	margin-top: 10px;
+	font: var(--font-s);
+}
