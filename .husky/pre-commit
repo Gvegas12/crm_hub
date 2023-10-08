@@ -8,3 +8,5 @@
 # npm run test:unit
 
 npm run build:prod
+
+npm run sb:build
