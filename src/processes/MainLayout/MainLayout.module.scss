@@ -1,0 +1,15 @@
+.header {
+	height: 12vh;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	height: 88vh;
+}
+
+.pageWrapper {
+	padding: 20px;
+	height: 100%;
+	width: calc(100% - var(--sidebar-width));
+}
