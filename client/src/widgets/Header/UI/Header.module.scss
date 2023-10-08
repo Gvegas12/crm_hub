@@ -1,0 +1,27 @@
+.Header {
+	padding: 15px 0;
+	background: white;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.user {
+	width: 60px;
+	height: 60px;
+	background-color: blue;
+}
+
+// .burger {
+// }
+
+.userWrapper {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+}
