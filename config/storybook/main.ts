@@ -1,3 +1,4 @@
+import { resolve } from "path";
 import type { StorybookConfig } from "@storybook/react-vite";
 
 const config: StorybookConfig = {
@@ -22,6 +23,14 @@ const config: StorybookConfig = {
 	typescript: {
 		reactDocgen: "react-docgen-typescript",
 	},
+	viteFinal: (config) => {
+		config.resolve!.alias = {
+			"@": resolve(__dirname, "..", "..", "src"),
+		};
+
+		return config;
+	},
 };
+
 export default config;
 
