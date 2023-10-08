@@ -13,8 +13,8 @@ export const Sidebar: FC = () => {
 		<div className={clsx(styles.Sidebar)}>
 			<div className={styles.links}>
 				<SidebarkLink to={privateRoutePaths.home}>Sales Analytics</SidebarkLink>
-				<SidebarkLink to={privateRoutePaths.contacts}>Accounts</SidebarkLink>
 				<SidebarkLink to={privateRoutePaths.contacts}>Contacts</SidebarkLink>
+				{/* <SidebarkLink to={privateRoutePaths.contacts}>Accounts</SidebarkLink>
 				<SidebarkLink to={privateRoutePaths.contacts}>Leads</SidebarkLink>
 				<SidebarkLink to={privateRoutePaths.contacts}>
 					Opportunities
@@ -22,7 +22,7 @@ export const Sidebar: FC = () => {
 				<SidebarkLink to={privateRoutePaths.contacts}>Cases</SidebarkLink>
 				<SidebarkLink to={privateRoutePaths.contacts}>Activities</SidebarkLink>
 				<SidebarkLink to={privateRoutePaths.contacts}>Documents</SidebarkLink>
-				<SidebarkLink to={privateRoutePaths.contacts}>Reports</SidebarkLink>
+				<SidebarkLink to={privateRoutePaths.contacts}>Reports</SidebarkLink> */}
 			</div>
 		</div>
 	);
