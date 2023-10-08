@@ -1,12 +1,20 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+Yellow='\033[0;33m'
+NC='\033[0m'
+
 # npm run lint:ts
 
 # npm run lint:scss
 
 # npm run test:unit
 
+echo -e "\n\n 💡 ${Yellow} Build production project ${NC} \n"
+
 npm run build:prod
 
+echo -e "\n\n 💡 ${Yellow} Build storybook ${NC} \n"
 npm run sb:build
+
+echo -e "\n\n 🎉 Success! \n" 
