@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: 🐧 install modules
-        run: yarn install
+        run: yarn
         if: always()
       - name: 💡 build production project
         run: yarn build:prod
