@@ -4,4 +4,11 @@
 	flex-grow: 1;
 	height: 100%;
 	border-top-right-radius: 30px;
+	padding: 50px;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
 }

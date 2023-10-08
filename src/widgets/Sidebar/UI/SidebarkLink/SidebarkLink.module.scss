@@ -1,0 +1,25 @@
+.SidebarkLink {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 20px;
+}
+
+.navLink {
+	font-weight: 600;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.navLink.active {
+	color: white;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.arrow {
+	width: 15px;
+	height: 15px;
+}

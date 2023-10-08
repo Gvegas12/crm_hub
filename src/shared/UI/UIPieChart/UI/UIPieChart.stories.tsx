@@ -13,6 +13,4 @@ const StorybookComponent: StoryFn<typeof UIPieChart> = (args) => (
 );
 
 export const Primary = StorybookComponent.bind({});
-Primary.args = {
-	children: "Text",
-};
+Primary.args = {};
