@@ -27,5 +27,8 @@
 	}, // Набор действий при сохранении файла
 	"explorer.confirmDelete": false, // Форматировать код при сохранении файла
 	"editor.formatOnPaste": false,
-	"typescript.tsdk": "node_modules\\typescript\\lib" // Форматировать при вставке фрагмента кода
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	} // Форматировать при вставке фрагмента кода
 }
