@@ -1,6 +1,6 @@
+import { StyleDecorator } from '../../src/shared/config/storybook/StyleDecorator';
+import { RouterDecorator } from '../../src/shared/config/storybook/RouterDecorator'
 import { Preview } from "@storybook/react";
-
-import { withScreenshot } from "storycap";
 
 const preview: Preview = {
 	parameters: {
@@ -12,7 +12,10 @@ const preview: Preview = {
 			},
 		},
 	},
-	decorators: [withScreenshot()],
+	decorators: [
+		RouterDecorator,
+		StyleDecorator
+	],
 };
 
 export default preview;
